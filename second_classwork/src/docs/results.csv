@@ -1,0 +1,7 @@
+model,best_cv_score,test_accuracy,test_balanced_accuracy,test_f1_macro,best_params
+AdaBoost_DecisionTree,0.6816532258064516,0.65,0.6519480519480519,0.6427350427350428,"{'clf__learning_rate': 0.1, 'clf__n_estimators': 200}"
+DecisionTree,0.6239919354838709,0.65,0.6503607503607504,0.6297760210803689,"{'clf__criterion': 'entropy', 'clf__max_depth': None, 'clf__min_samples_leaf': 2, 'clf__min_samples_split': 10}"
+RandomForest,0.7389112903225806,0.625,0.6151515151515151,0.6185997910135841,"{'clf__max_depth': 10, 'clf__max_features': 'log2', 'clf__min_samples_leaf': 1, 'clf__n_estimators': 200}"
+Bagging_DecisionTree,0.7070564516129032,0.625,0.6216450216450217,0.6184546615581098,"{'clf__max_features': 0.7, 'clf__max_samples': 0.7, 'clf__n_estimators': 200}"
+KNN,0.5985887096774193,0.6,0.5994227994227994,0.5986292568001713,"{'clf__n_neighbors': 5, 'clf__p': 2, 'clf__weights': 'uniform'}"
+SVC,0.6943548387096775,0.6,0.5994227994227994,0.5967195767195766,"{'clf__C': 0.1, 'clf__class_weight': 'balanced', 'clf__gamma': 'scale', 'clf__kernel': 'linear'}"
