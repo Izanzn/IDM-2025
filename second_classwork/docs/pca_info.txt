@@ -1,0 +1,2 @@
+Explained variance ratio (PC1, PC2): [0.2378542214908981, 0.10378950898408332]
+Total explained variance (PC1+PC2): 0.341644
